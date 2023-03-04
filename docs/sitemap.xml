@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-stylesheet href="sitemap.xsl" type="text/xsl"?>
@@ -6,8 +5,8 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-	    <loc>https://busesofsomerset.haignet.co.uk/</loc>
-	    <priority>1.0</priority>
-    	<lastmod>2023-03-04</lastmod>
+      <loc>https://busesofsomerset.haignet.co.uk/</loc>
+      <priority>1.0</priority>
+      <lastmod>2023-03-04</lastmod>
     </url>
 </urlset>
