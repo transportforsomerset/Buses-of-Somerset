@@ -3,5 +3,6 @@ table tr td {
 }
 
 #map {
-  height: 180px;
+  width: 60%;
+  height: 280px;
 }
