@@ -6,3 +6,10 @@ function updatewatching(wanttowatch) {
   localStorage.setItem("watchRoute", wanttowatch);
   console.log(localStorage.getItem("watchRoute"));
 }
+function whatamiwatching() {
+    var watching = localStorage.getItem("watchRoute");
+    document.write("<p>");
+    document.write("Currently watching route: ");
+    document.write(watching);
+    document.write("</p>");
+}
