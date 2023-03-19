@@ -1,9 +1,5 @@
 function updatewatching(wanttowatch) {
-  console.log(wanttowatch);
-  console.log(localStorage.getItem("watchRoute"));
   localStorage.setItem("watchRoute", wanttowatch);
-  console.log(localStorage.getItem("watchRoute"));
-  
   whatamiwatching();
 }
 function whatamiwatching() {
@@ -24,3 +20,5 @@ function whatamiwatching() {
   
   whatisbeingwatched.appendChild(para);
 }
+
+window.addEventListener("DOMContentLoaded", whatamiwatching());
