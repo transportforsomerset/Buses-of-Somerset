@@ -1,5 +1,3 @@
-localStorage.setItem("watchRoute", "2");
-
 function updatewatching(wanttowatch) {
   console.log(wanttowatch);
   console.log(localStorage.getItem("watchRoute"));
