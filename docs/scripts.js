@@ -5,8 +5,11 @@ function updatewatching(wanttowatch) {
   console.log(localStorage.getItem("watchRoute"));
 }
 function whatamiwatching() {
-    document.write("<p>");
-    document.write("Currently watching route: ");
-    document.write(localStorage.getItem("watchRoute"));
-    document.write("</p>");
+  if (!localStorage.getItem("watchRoute"))
+    localStorage.setItem("watchRoute", 0);
+  
+  document.write("<p>");
+  document.write("Currently watching route: ");
+  document.write(localStorage.getItem("watchRoute"));
+  document.write("</p>");
 }
