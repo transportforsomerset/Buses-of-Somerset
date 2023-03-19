@@ -14,8 +14,10 @@ function whatamiwatching() {
   para.appendChild(paratext1);
   
   const whatisbeingwatched = document.getElementById("whatisbeingwatched");
-  while (whatisbeingwatched.firstChild) {
-    whatisbeingwatched.removeChild(whatisbeingwatched.firstChild);
+  if (whatisbeingwatched.firstChild)
+    while (whatisbeingwatched.firstChild) {
+      whatisbeingwatched.removeChild(whatisbeingwatched.firstChild);
+    }
   }
   
   whatisbeingwatched.appendChild(para);
