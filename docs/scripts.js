@@ -16,8 +16,11 @@ function whatamiwatching() {
   const para = document.createElement("p");
   const paratext1 = document.createTextNode("Currently watching route: " + watchRoute);
   para.appendChild(paratext1);
-  document.body.insertBefore(para, whatisbeingwatched);
-/*  
+  whatisbeingwatched.appendChild(para);
+  
+  /*
+document.body.insertBefore(para, whatisbeingwatched);
+  
   document.write("<p>");
   document.write("Currently watching route: ");
   document.write(localStorage.getItem("watchRoute"));
