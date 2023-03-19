@@ -5,7 +5,7 @@ function updatewatching(wanttowatch) {
 function whatamiwatching() {
   var watchRoute = 0;
   if (localStorage.getItem("watchRoute"))
-    watchRoute = localStorage.getItem("watchRoute")
+    watchRoute = localStorage.getItem("watchRoute");
   else
     localStorage.setItem("watchRoute", watchRoute);
   
