@@ -1,15 +1,13 @@
-table tr td {
-  text-align: center;
-}
-
 #map {
   width: 95%;
   height: 400px;
 }
+
 table {
   border: 1px solid black;
   font-variant-numeric: tabular-nums;
 }
-table td {
+table tr td {
   padding: 2px 5px;
+  text-align: center;
 }
