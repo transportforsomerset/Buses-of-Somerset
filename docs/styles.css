@@ -16,6 +16,6 @@ table tr td {
   padding: 2px 5px;
   text-align: center;
 }
-table tr td:nth-child(odd) {
+table#timetable tr td:nth-child(odd) {
   background-color: blue;
 }
