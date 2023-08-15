@@ -8,6 +8,8 @@ table {
   font-variant-numeric: tabular-nums;
 }
 table tr td {
+  border-left: 1px solid green; 
+  border-top: 1px dashed green;
   padding: 2px 5px;
   text-align: center;
 }
