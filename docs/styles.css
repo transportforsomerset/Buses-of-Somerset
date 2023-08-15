@@ -6,6 +6,7 @@
 table {
   border: 1px solid black;
   font-variant-numeric: tabular-nums;
+  max-width: 95%;
 }
 table tr td {
   border-left: 1px solid green; 
