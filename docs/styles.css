@@ -8,6 +8,7 @@ table {
   font-variant-numeric: tabular-nums;
   max-width: 95%;
   overflow-x: auto;
+  width: 80%;
 }
 table tr td {
   border-left: 1px solid green; 
