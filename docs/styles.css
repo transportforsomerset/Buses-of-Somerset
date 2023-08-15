@@ -17,5 +17,5 @@ table tr td {
   text-align: center;
 }
 table#timetable tr td:nth-child(odd) {
-  background-color: blue;
+  background-color: #d7f7e4;
 }
