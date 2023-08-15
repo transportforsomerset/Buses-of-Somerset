@@ -6,3 +6,6 @@ table tr td {
   width: 95%;
   height: 400px;
 }
+table {
+  border: 1px solid black;
+}
