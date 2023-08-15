@@ -8,4 +8,8 @@ table tr td {
 }
 table {
   border: 1px solid black;
+  font-variant-numeric: tabular-nums;
+}
+table td {
+  padding: 5px 15px;
 }
