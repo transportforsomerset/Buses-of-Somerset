@@ -22,6 +22,9 @@ table tr td {
 table tr td:first-child {
   border-left: none;
 }
+table tr td[colspan] {
+  background-color: #d7e4fa;
+}
 table#timetable tr:hover {
   background-color: #daf5f1;
 }
