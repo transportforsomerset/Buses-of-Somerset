@@ -25,6 +25,13 @@ table tr td:first-child {
 table tr td[colspan] {
   background-color: #d7e4fa;
 }
+
+table#timetable {
+  border: 0;
+}
+table#timetable tbody {
+  border: 1px solid black;
+}
 table#timetable tr:hover {
   background-color: #daf5f1;
 }
